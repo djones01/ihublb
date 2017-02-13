@@ -1,0 +1,30 @@
+{
+  "name": "Client",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "New Client"
+    },
+    "description": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string",
+      "required": true
+    },
+    "contact_type": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

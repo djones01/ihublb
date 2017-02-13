@@ -1,0 +1,21 @@
+{
+  "name": "ProjectUser",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "active_on_project": {
+      "type": "boolean",
+      "required": true
+    },
+    "effective_date": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

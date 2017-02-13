@@ -1,0 +1,45 @@
+{
+  "name": "Integration",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "New Integration"
+    },
+    "description": {
+      "type": "string"
+    },
+    "source_system": {
+      "type": "string",
+      "required": true
+    },
+    "target_system": {
+      "type": "string",
+      "required": true
+    },
+    "source_system_release": {
+      "type": "string"
+    },
+    "target_system_release": {
+      "type": "string"
+    },
+    "effective_date": {
+      "type": "date"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "hidden": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

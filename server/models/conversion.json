@@ -1,0 +1,36 @@
+{
+  "name": "Conversion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "New Conversion"
+    },
+    "description": {
+      "type": "string"
+    },
+    "maintain_output_order": {
+      "type": "boolean",
+      "required": true
+    },
+    "split_output": {
+      "type": "boolean",
+      "required": true
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "hidden": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

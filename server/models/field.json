@@ -1,0 +1,38 @@
+{
+  "name": "Field",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "New Field"
+    },
+    "description": {
+      "type": "string"
+    },
+    "length": {
+      "type": "number",
+      "required": true,
+      "default": 200
+    },
+    "datatype": {
+      "type": "string",
+      "required": true,
+      "default": "text"
+    },
+    "precision": {
+      "type": "number"
+    },
+    "default_value": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
