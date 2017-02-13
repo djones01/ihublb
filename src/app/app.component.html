@@ -1,3 +1,16 @@
-<h1>
-  {{title}}
-</h1>
+<!-- 
+<app-ui-main-navigation></app-ui-main-navigation>
+
+<app-ui-sub-navigation [title]="(observable$ | async)?.title" [description]="(observable$ | async)?.text"></app-ui-sub-navigation>
+
+<div class="main">
+  <router-outlet></router-outlet>
+</div>
+
+<router-outlet name='modal'></router-outlet>
+-->
+<ng2-page-transition>
+  <router-outlet></router-outlet>
+  <app-ui-loader [visible]="loading"></app-ui-loader>
+</ng2-page-transition>
+

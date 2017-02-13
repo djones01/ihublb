@@ -1,4 +1,5 @@
 'use strict';
+const path = require('path');
 
 var loopback = require('loopback');
 var boot = require('loopback-boot');
@@ -6,6 +7,7 @@ var boot = require('loopback-boot');
 var app = module.exports = loopback();
 
 app.start = function() {
+
   // start the web server
   return app.listen(function() {
     app.emit('started');

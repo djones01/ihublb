@@ -1,0 +1,21 @@
+<app-project-list [data]="projects$ | async" [canSelect]="true" (selectedItem)="onSelectedItem($event)"></app-project-list>
+<div class="row add-margin-top">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-block">
+          <h3 class="card-title">Edit Project</h3>
+          <p class="card-text">Editing Project properties does not affect its subitems.</p>
+          <button class="btn btn-secondary" (click)="editProject()" role="button" [disabled]="!selectedItem">Edit Project</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-block">
+          <h3 class="card-title">Delete Project</h3>
+          <p class="card-text">When deleting a project, you can also choose to delete or keep all of the subitems such as Integrations and Conversions.</p>
+          <button class="btn btn-secondary" (click)="deleteProject()" role="button" [disabled]="!selectedItem">Delete Project</button>
+        </div>
+      </div>
+    </div>
+</div>
