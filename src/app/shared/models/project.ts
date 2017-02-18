@@ -19,4 +19,4 @@ export class Project implements Project {
     ){}
 }
 
-type ProjectType = 'upgrade' | 'enhancement' | 'new' | 'retrofit';
+type ProjectType = 'Upgrade' | 'Enhancement' | 'New Installation' | 'Retrofit';

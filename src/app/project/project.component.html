@@ -1,24 +1,13 @@
 <div class="container">
   <h4>Projects Overview</h4>
   <hr>
+  <div class="card">
+    <div class="card-block">
+      <h3 class="card-title">Add New Project</h3>
+      <p class="card-text">Projects contain a set of integrations and assigned users.</p>
+      <a class="btn btn-secondary" routerLink="/pages/projects/edit" role="button">Add Project</a>
+    </div>
+  </div>
+  <hr>    
   <app-project-list-main></app-project-list-main>
-  <div class="row add-margin-top">
-    <div class="col-md-6">
-      <div class="card">
-        <div class="card-block">
-          <h3 class="card-title">Add New Project</h3>
-          <p class="card-text">Projects contain a set of integrations and assigned users.</p>
-          <a class="btn btn-secondary" routerLink="/pages/projects/edit" role="button">Add Project</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="card">
-        <div class="card-block">
-          <h3 class="card-title">Add Integration to Project</h3>
-          <p class="card-text">Integrations contain all of the conversions necessary to convert data from one system to another.</p>
-          <a class="btn btn-secondary" routerLink="/pages/integrations" role="button">Add Integrations</a>
-        </div>
-      </div>
-    </div>
 </div>

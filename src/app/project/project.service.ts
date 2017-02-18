@@ -26,7 +26,7 @@ export class ProjectService {
                 this._projects.next(Object.assign({}, this.dataStore).projects);
             }, error => {
                 console.log(error);
-                this.alertService.error('Error', 'Encountered error while loading Projects');
+                //this.alertService.error('Error', 'Encountered error while loading Projects');
             });
     }
 
@@ -41,7 +41,7 @@ export class ProjectService {
             this._projects.next(Object.assign({}, this.dataStore).projects);
         }, error => {
             console.log(error);
-            this.alertService.error('Error', 'Encountered error while adding Project');
+            //this.alertService.error('Error', 'Encountered error while adding Project');
         });
     }
 
@@ -55,7 +55,7 @@ export class ProjectService {
             this._projects.next(Object.assign({}, this.dataStore).projects);
         }, error => {
             console.log(error);
-            this.alertService.error('Error', 'Encountered error while updating Project');
+            //this.alertService.error('Error', 'Encountered error while updating Project');
         });
         this.editing = false;
         this._editProject.next(null);
@@ -69,13 +69,13 @@ export class ProjectService {
             this._projects.next(Object.assign({}, this.dataStore).projects);
         }, error => {
             console.log(error);
-            this.alertService.error('Error', 'Encountered error while deleting Project');
+            //this.alertService.error('Error', 'Encountered error while deleting Project');
         });
     }
 
 
 
-    constructor(private router: Router, private dataService: DataService, private alertService: AlertService) {
+    constructor(private router: Router, private dataService: DataService /*private alertService: AlertService*/) {
         this.dataStore = { projects: [] };
         this.loadall();
     }

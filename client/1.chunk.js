@@ -1,18 +1,18 @@
 webpackJsonp([1,8],{
 
-/***/ 1106:
+/***/ 1108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__integration_routing_module__ = __webpack_require__(1126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_integration_edit_component__ = __webpack_require__(1125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list_integration_list_component__ = __webpack_require__(1128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_integration_card_component__ = __webpack_require__(1123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__detail_integration_detail_component__ = __webpack_require__(1124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__integration_component__ = __webpack_require__(1127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__integration_routing_module__ = __webpack_require__(1127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_integration_edit_component__ = __webpack_require__(1126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list_integration_list_component__ = __webpack_require__(1129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_integration_card_component__ = __webpack_require__(1124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__detail_integration_detail_component__ = __webpack_require__(1125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__integration_component__ = __webpack_require__(1128);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IntegrationModule", function() { return IntegrationModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56,7 +56,7 @@ var IntegrationModule = (function () {
 
 /***/ }),
 
-/***/ 1123:
+/***/ 1124:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -80,8 +80,8 @@ var IntegrationCardComponent = (function () {
     IntegrationCardComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-integration-card',
-            template: __webpack_require__(1167),
-            styles: [__webpack_require__(1145)],
+            template: __webpack_require__(1174),
+            styles: [__webpack_require__(1149)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -92,7 +92,7 @@ var IntegrationCardComponent = (function () {
 
 /***/ }),
 
-/***/ 1124:
+/***/ 1125:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -116,8 +116,8 @@ var IntegrationDetailComponent = (function () {
     IntegrationDetailComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-integration-detail',
-            template: __webpack_require__(1168),
-            styles: [__webpack_require__(1146)],
+            template: __webpack_require__(1175),
+            styles: [__webpack_require__(1150)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -128,7 +128,7 @@ var IntegrationDetailComponent = (function () {
 
 /***/ }),
 
-/***/ 1125:
+/***/ 1126:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -152,8 +152,8 @@ var IntegrationEditComponent = (function () {
     IntegrationEditComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-integration-edit',
-            template: __webpack_require__(1169),
-            styles: [__webpack_require__(1147)],
+            template: __webpack_require__(1176),
+            styles: [__webpack_require__(1151)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -164,12 +164,12 @@ var IntegrationEditComponent = (function () {
 
 /***/ }),
 
-/***/ 1126:
+/***/ 1127:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(32);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IntegrationRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -200,7 +200,7 @@ var IntegrationRoutingModule = (function () {
 
 /***/ }),
 
-/***/ 1127:
+/***/ 1128:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -224,8 +224,8 @@ var IntegrationComponent = (function () {
     IntegrationComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-integration',
-            template: __webpack_require__(1170),
-            styles: [__webpack_require__(1148)],
+            template: __webpack_require__(1177),
+            styles: [__webpack_require__(1152)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -236,7 +236,7 @@ var IntegrationComponent = (function () {
 
 /***/ }),
 
-/***/ 1128:
+/***/ 1129:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -260,8 +260,8 @@ var IntegrationListComponent = (function () {
     IntegrationListComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-integration-list',
-            template: __webpack_require__(1171),
-            styles: [__webpack_require__(1149)],
+            template: __webpack_require__(1178),
+            styles: [__webpack_require__(1153)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -272,34 +272,6 @@ var IntegrationListComponent = (function () {
 
 /***/ }),
 
-/***/ 1145:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ 1146:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ 1147:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ 1148:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
 /***/ 1149:
 /***/ (function(module, exports) {
 
@@ -307,35 +279,63 @@ module.exports = ""
 
 /***/ }),
 
-/***/ 1167:
+/***/ 1150:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1151:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1152:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1153:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1174:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  integration-card works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1168:
+/***/ 1175:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  integration-detail works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1169:
+/***/ 1176:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  integration-edit works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1170:
+/***/ 1177:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  integration works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1171:
+/***/ 1178:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  integration-list works!\r\n</p>\r\n"

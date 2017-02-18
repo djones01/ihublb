@@ -12,14 +12,14 @@
         <label class="form-control-label" for="type">Type</label>
         <select name="type" class="form-control" formControlName="type">
             <option value="" selected disabled>Select Type</option>
-            <option value="new">New Work</option>
-            <option value="enhance">Enhancement</option>
-            <option value="upgrade">upgrade</option>
-            <option value="retrofit">Retrofit</option>
+            <option value="New Work">New Work</option>
+            <option value="Enhancement">Enhancement</option>
+            <option value="Upgrade">Upgrade</option>
+            <option value="Retrofit">Retrofit</option>
         </select>
         <div class="form-control-feedback" *ngIf="form.controls.type.invalid">Type is Required</div>
     </div>
     <div class="form-group">
-        <button type="submit" class="btn btn-primary" [disabled]="!form.valid"><i class="fa fa-plus"></i> Save</button>
+        <button type="submit" class="btn btn-primary" [disabled]="!form.valid" *ngIf="!inFlow"><i class="fa fa-plus"></i> Save</button>
     </div>
 </form>

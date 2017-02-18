@@ -1,18 +1,18 @@
 webpackJsonp([2,8],{
 
-/***/ 1105:
+/***/ 1107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__format_routing_module__ = __webpack_require__(1120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_format_edit_component__ = __webpack_require__(1119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list_format_list_component__ = __webpack_require__(1122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_format_card_component__ = __webpack_require__(1117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__detail_format_detail_component__ = __webpack_require__(1118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__format_component__ = __webpack_require__(1121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__format_routing_module__ = __webpack_require__(1121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_format_edit_component__ = __webpack_require__(1120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list_format_list_component__ = __webpack_require__(1123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_format_card_component__ = __webpack_require__(1118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__detail_format_detail_component__ = __webpack_require__(1119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__format_component__ = __webpack_require__(1122);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormatModule", function() { return FormatModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56,7 +56,7 @@ var FormatModule = (function () {
 
 /***/ }),
 
-/***/ 1117:
+/***/ 1118:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -80,8 +80,8 @@ var FormatCardComponent = (function () {
     FormatCardComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-format-card',
-            template: __webpack_require__(1162),
-            styles: [__webpack_require__(1140)],
+            template: __webpack_require__(1169),
+            styles: [__webpack_require__(1144)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -92,7 +92,7 @@ var FormatCardComponent = (function () {
 
 /***/ }),
 
-/***/ 1118:
+/***/ 1119:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -116,8 +116,8 @@ var FormatDetailComponent = (function () {
     FormatDetailComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-format-detail',
-            template: __webpack_require__(1163),
-            styles: [__webpack_require__(1141)],
+            template: __webpack_require__(1170),
+            styles: [__webpack_require__(1145)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -128,7 +128,7 @@ var FormatDetailComponent = (function () {
 
 /***/ }),
 
-/***/ 1119:
+/***/ 1120:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -152,8 +152,8 @@ var FormatEditComponent = (function () {
     FormatEditComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-format-edit',
-            template: __webpack_require__(1164),
-            styles: [__webpack_require__(1142)],
+            template: __webpack_require__(1171),
+            styles: [__webpack_require__(1146)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -164,12 +164,12 @@ var FormatEditComponent = (function () {
 
 /***/ }),
 
-/***/ 1120:
+/***/ 1121:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(32);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FormatRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -200,7 +200,7 @@ var FormatRoutingModule = (function () {
 
 /***/ }),
 
-/***/ 1121:
+/***/ 1122:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -224,8 +224,8 @@ var FormatComponent = (function () {
     FormatComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-format',
-            template: __webpack_require__(1165),
-            styles: [__webpack_require__(1143)],
+            template: __webpack_require__(1172),
+            styles: [__webpack_require__(1147)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -236,7 +236,7 @@ var FormatComponent = (function () {
 
 /***/ }),
 
-/***/ 1122:
+/***/ 1123:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -260,8 +260,8 @@ var FormatListComponent = (function () {
     FormatListComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-format-list',
-            template: __webpack_require__(1166),
-            styles: [__webpack_require__(1144)],
+            template: __webpack_require__(1173),
+            styles: [__webpack_require__(1148)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -272,34 +272,6 @@ var FormatListComponent = (function () {
 
 /***/ }),
 
-/***/ 1140:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ 1141:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ 1142:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ 1143:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
 /***/ 1144:
 /***/ (function(module, exports) {
 
@@ -307,35 +279,63 @@ module.exports = ""
 
 /***/ }),
 
-/***/ 1162:
+/***/ 1145:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1146:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1147:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1148:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1169:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  format-card works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1163:
+/***/ 1170:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  format-detail works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1164:
+/***/ 1171:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  format-edit works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1165:
+/***/ 1172:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  format works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1166:
+/***/ 1173:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  format-list works!\r\n</p>\r\n"

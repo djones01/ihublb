@@ -1,18 +1,18 @@
 webpackJsonp([3,8],{
 
-/***/ 1104:
+/***/ 1106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conversion_routing_module__ = __webpack_require__(1112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_conversion_edit_component__ = __webpack_require__(1115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list_conversion_list_component__ = __webpack_require__(1116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_conversion_card_component__ = __webpack_require__(1111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__detail_conversion_detail_component__ = __webpack_require__(1114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__conversion_component__ = __webpack_require__(1113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conversion_routing_module__ = __webpack_require__(1113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_conversion_edit_component__ = __webpack_require__(1116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list_conversion_list_component__ = __webpack_require__(1117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_conversion_card_component__ = __webpack_require__(1112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__detail_conversion_detail_component__ = __webpack_require__(1115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__conversion_component__ = __webpack_require__(1114);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ConversionModule", function() { return ConversionModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56,7 +56,7 @@ var ConversionModule = (function () {
 
 /***/ }),
 
-/***/ 1111:
+/***/ 1112:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -80,8 +80,8 @@ var ConversionCardComponent = (function () {
     ConversionCardComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-conversion-card',
-            template: __webpack_require__(1157),
-            styles: [__webpack_require__(1135)],
+            template: __webpack_require__(1164),
+            styles: [__webpack_require__(1139)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -92,12 +92,12 @@ var ConversionCardComponent = (function () {
 
 /***/ }),
 
-/***/ 1112:
+/***/ 1113:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(32);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConversionRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -128,7 +128,7 @@ var ConversionRoutingModule = (function () {
 
 /***/ }),
 
-/***/ 1113:
+/***/ 1114:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -152,8 +152,8 @@ var ConversionComponent = (function () {
     ConversionComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-conversion',
-            template: __webpack_require__(1158),
-            styles: [__webpack_require__(1136)],
+            template: __webpack_require__(1165),
+            styles: [__webpack_require__(1140)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -164,7 +164,7 @@ var ConversionComponent = (function () {
 
 /***/ }),
 
-/***/ 1114:
+/***/ 1115:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -188,8 +188,8 @@ var ConversionDetailComponent = (function () {
     ConversionDetailComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-conversion-detail',
-            template: __webpack_require__(1159),
-            styles: [__webpack_require__(1137)],
+            template: __webpack_require__(1166),
+            styles: [__webpack_require__(1141)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -200,7 +200,7 @@ var ConversionDetailComponent = (function () {
 
 /***/ }),
 
-/***/ 1115:
+/***/ 1116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -224,8 +224,8 @@ var ConversionEditComponent = (function () {
     ConversionEditComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-conversion-edit',
-            template: __webpack_require__(1160),
-            styles: [__webpack_require__(1138)],
+            template: __webpack_require__(1167),
+            styles: [__webpack_require__(1142)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -236,7 +236,7 @@ var ConversionEditComponent = (function () {
 
 /***/ }),
 
-/***/ 1116:
+/***/ 1117:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -260,8 +260,8 @@ var ConversionListComponent = (function () {
     ConversionListComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-conversion-list',
-            template: __webpack_require__(1161),
-            styles: [__webpack_require__(1139)],
+            template: __webpack_require__(1168),
+            styles: [__webpack_require__(1143)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
@@ -272,34 +272,6 @@ var ConversionListComponent = (function () {
 
 /***/ }),
 
-/***/ 1135:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ 1136:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ 1137:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ 1138:
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
 /***/ 1139:
 /***/ (function(module, exports) {
 
@@ -307,35 +279,63 @@ module.exports = ""
 
 /***/ }),
 
-/***/ 1157:
+/***/ 1140:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1141:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1142:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1143:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 1164:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  conversion-card works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1158:
+/***/ 1165:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  conversion works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1159:
+/***/ 1166:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  conversion-detail works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1160:
+/***/ 1167:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  conversion-edit works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1161:
+/***/ 1168:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  conversion-list works!\r\n</p>\r\n"

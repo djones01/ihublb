@@ -9,13 +9,14 @@ export class ProjectListComponent {
     @Input() data: any[];
     @Input() canSelect: boolean;
     @Output() selectedItem = new EventEmitter();
+    @Output() menuAction = new EventEmitter();
 
     private types = [
       { label: 'All Types', value: null },
-      { label: 'Upgrade', value: 'upgrade' },
-      { label: 'Enhancement', value: 'enhancement' },
-      { label: 'New Installation', value: 'new' },
-      { label: 'Retrofit', value: 'retrofit' }
+      { label: 'Upgrade', value: 'Upgrade' },
+      { label: 'Enhancement', value: 'Enhancement' },
+      { label: 'New Installation', value: 'New Installation' },
+      { label: 'Retrofit', value: 'Retrofit' }
     ];
 
     onRowSelect(event) {

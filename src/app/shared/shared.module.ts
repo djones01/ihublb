@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 import { MenuModule } from 'primeng/primeng';
 import { SidebarModule } from 'ng-sidebar';
 
 import { MainNavigationComponent } from './main-navigation/main-navigation.component';
-import { RouterModule } from '@angular/router';
 import { SubNavigationComponent } from './sub-navigation/sub-navigation.component';
-import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { LoaderComponent } from './loader/loader.component';
 
 import { DataService } from './services/data.service';
+import { FormBuilderService } from './services/form-builder.service';
 
 import { AlertModule } from './alert/alert.module';
 
@@ -34,6 +35,6 @@ import { AlertModule } from './alert/alert.module';
     LoaderComponent,
     SubNavigationComponent
   ],
-  providers: [DataService]
+  providers: [DataService, FormBuilderService]
 })
 export class SharedModule {}

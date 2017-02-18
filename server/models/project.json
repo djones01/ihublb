@@ -23,7 +23,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "integrations": {
+      "type": "hasMany",
+      "model": "Integration",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

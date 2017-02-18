@@ -8,9 +8,20 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
-            <app-project-edit [form]="projectForm" (formSubmitted)="saveProject($event)"></app-project-edit>    
+        <div class="col-md-4" *ngIf="activeStep == 0">
+            <app-project-edit [form]="projectForm" [inFlow]="true"></app-project-edit>    
         </div>
+        <app-project-edit-integrations *ngIf="activeStep == 1" [form]="projectForm"></app-project-edit-integrations>
+        <app-project-edit-users *ngIf="activeStep == 2" [form]="projectForm"></app-project-edit-users>
+        <app-project-edit-overview *ngIf="activeStep == 3" [form]="projectForm"></app-project-edit-overview>
     </div>  
+    <div class="row">           
+        <p-steps [model]="items" [readonly]="false" [(activeIndex)]="activeStep"></p-steps>
+    </div>
+    <div class="row">
+        <button type="button" class="btn btn-secondary" (click)="previousStep()" *ngIf="activeStep != 0"><i class="fa fa-arrow-left"></i> Back</button>
+        <button type="button" class="btn btn-secondary" (click)="nextStep()" *ngIf="activeStep != 3">Next <i class="fa fa-arrow-right"></i></button>
+        <button type="button" class="btn btn-primary" (click)="saveProject()" *ngIf="activeStep == 3"><i class="fa fa-save"></i> Save Project</button>
+    </div>
 </div>
 

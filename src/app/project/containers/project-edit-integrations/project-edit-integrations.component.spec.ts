@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { ProjectDeleteOptionsComponent } from './project-delete-options.component';
+import { ProjectEditIntegrationsComponent } from './project-edit-integrations.component';
 
-describe('ProjectDeleteOptionsComponent', () => {
-  let component: ProjectDeleteOptionsComponent;
-  let fixture: ComponentFixture<ProjectDeleteOptionsComponent>;
+describe('ProjectEditIntegrationsComponent', () => {
+  let component: ProjectEditIntegrationsComponent;
+  let fixture: ComponentFixture<ProjectEditIntegrationsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ProjectDeleteOptionsComponent ]
+      declarations: [ ProjectEditIntegrationsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ProjectDeleteOptionsComponent);
+    fixture = TestBed.createComponent(ProjectEditIntegrationsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

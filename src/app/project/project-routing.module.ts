@@ -12,7 +12,6 @@ const routes: Route[] = [
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule],
-  providers: []
+  exports: [RouterModule]
 })
 export class ProjectRoutingModule { }
