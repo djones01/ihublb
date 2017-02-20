@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { Ng2PageTransition } from 'ng2-page-transition';
 import { ConfirmationService } from 'primeng/primeng';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -29,7 +30,8 @@ import { ProjectService } from './project/project.service';
     HttpModule,
     HomeModule,
     LoginModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule.forRoot()
   ],
   providers: [ConfirmationService, AppSettings, ProjectService],
   bootstrap: [

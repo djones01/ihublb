@@ -12,6 +12,7 @@ import { LoaderComponent } from './loader/loader.component';
 
 import { DataService } from './services/data.service';
 import { FormBuilderService } from './services/form-builder.service';
+import { FilteredDataService } from './services/filtered-data.service';
 
 import { AlertModule } from './alert/alert.module';
 
@@ -35,6 +36,6 @@ import { AlertModule } from './alert/alert.module';
     LoaderComponent,
     SubNavigationComponent
   ],
-  providers: [DataService, FormBuilderService]
+  providers: [DataService, FormBuilderService, FilteredDataService]
 })
 export class SharedModule {}

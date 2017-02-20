@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { FormBuilderService } from '../../../shared/services/form-builder.service';
 import { FormGroup } from '@angular/forms';
 import { ProjectService } from '../../project.service';
-import { Project } from '../../../shared/models/project';
+import { Project } from '../../../shared/models/index';
 import { Router } from '@angular/router';
 import { MenuItem } from 'primeng/primeng';
 

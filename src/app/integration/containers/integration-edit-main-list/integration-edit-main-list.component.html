@@ -1,0 +1,15 @@
+  <button class="btn btn-secondary" (click)="addIntegration()"><i class="fa fa-plus"></i> Add Integration</button>
+  <form [formGroup]="form" novalidate (ngSubmit)="onSubmit(form.value)" class="add-margin-top">
+    <div formArrayName="integrations">
+      <div *ngFor="let integrationForm of form.get('integrations').controls; let i=index" class="card">
+        <div class="card-header">
+          <button class="btn btn-secondary" (click)="removeIntegration(i)"><i class="fa fa-trash"></i> Delete</button>
+        </div>
+        <div class="card-block">
+          <h3 class="card-title">{{integrationForm.get('name').value}}</h3>
+          <app-integration-edit [inFlow]="true" [form]="integrationForm"></app-integration-edit>
+        </div>
+      </div>
+    </div>
+  </form>
+   

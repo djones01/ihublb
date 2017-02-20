@@ -3,7 +3,10 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProjectRoutingModule } from './project-routing.module';
 
-// Primeng module imports 
+// feature modules
+import { IntegrationModule } from '../integration/integration.module';
+
+// third party modules 
 import { 
   CalendarModule, 
   DataTableModule, 
@@ -15,6 +18,7 @@ import {
   StepsModule,
   TieredMenuModule
 } from 'primeng/primeng';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 // Dumb components
 import { ProjectEditComponent } from './edit/project-edit.component';
@@ -39,11 +43,13 @@ import { ProjectEditOverviewComponent } from './containers/project-edit-overview
     ProjectRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    IntegrationModule,
     DataTableModule,
     DropdownModule,
     PanelModule,
     StepsModule,
-    TieredMenuModule
+    TieredMenuModule,
+    NgbModule
   ],
   declarations: [
     ProjectCardComponent,

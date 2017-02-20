@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
 
 // model imports
-import { Project } from '../models/project';
+import { Project } from '../models/index';
 import { Integration } from '../models/integration';
 
 @Injectable()
@@ -35,7 +35,7 @@ export class FormBuilderService {
 
   initIntegrationForm(integration?: Integration){
     return this.fb.group({
-      name: ['', Validators.required],
+      name: ['New Integration', Validators.required],
       description: '',
       source_system: ['', Validators.required],
       target_system: ['', Validators.required],

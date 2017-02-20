@@ -1,7 +1,6 @@
 import { Injectable } from "@angular/core";
-import { BehaviorSubject } from "rxjs/BehaviorSubject";
-import { Observable } from "rxjs/Observable";
-import { Project } from "../shared/models/project";
+import { BehaviorSubject, Observable } from "rxjs";
+import { Project } from "../shared/models/index";
 import { DataService } from "../shared/services/data.service";
 import { Router } from "@angular/router";
 import { AlertService } from "../shared/alert/alert.service";

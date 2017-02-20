@@ -1,3 +1,60 @@
-<p>
-  integration-edit works!
-</p>
+<form [formGroup]="form" novalidate (ngSubmit)="onSubmit(form.value)">
+    <div class="form-group" [class.has-danger]="form.controls.name.invalid">
+        <label class="form-control-label" for="name">Name</label>
+        <input type="text" name="name" class="form-control" placeholder="Name" formControlName="name">
+        <div class="form-control-feedback" *ngIf="form.controls.name.invalid">Name is Required</div>
+    </div>
+    <div class="form-group">
+        <label class="form-control-label" for="description">Description</label>
+        <textarea type="text" name="description" class="form-control" placeholder="Description" formControlName="description"></textarea>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+          <div class="form-group" [class.has-danger]="form.controls.source_system.invalid">
+              <label class="form-control-label" for="source_system">Source System</label>
+              <input type="text" name="source_system" class="form-control" placeholder="Source System" formControlName="source_system">
+              <div class="form-control-feedback" *ngIf="form.controls.source_system.invalid">Source System is Required</div>
+          </div>
+      </div>
+      <div class="col-md-5">
+          <div class="form-group">
+              <label class="form-control-label" for="source_system_release">Source System Release</label>
+              <input type="text" name="source_system_release" class="form-control" placeholder="Source System Release" formControlName="source_system_release">
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <div class="form-group" [class.has-danger]="form.controls.target_system.invalid">
+            <label class="form-control-label" for="target_system">Target System</label>
+            <input type="text" name="target_system" class="form-control" placeholder="Target System" formControlName="target_system">
+            <div class="form-control-feedback" *ngIf="form.controls.target_system.invalid">Target System is Required</div>
+        </div>
+      </div>
+      <div class="col-md-5">
+           <div class="form-group">
+              <label class="form-control-label" for="target_system_release">Target System Release</label>
+              <input type="text" name="target_system_release" class="form-control" placeholder="Target System Release" formControlName="target_system_release">
+          </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Effective Date</label>
+      <p-calendar formControlName="effective_date"></p-calendar>
+    </div>
+    <div class="form-group">
+        <label for="active">Active</label>
+        <div>
+            <p-inputSwitch onLabel="Yes" offLabel="No" formControlName="active"></p-inputSwitch>
+        </div>           
+    </div>
+    <div class="form-group">
+        <label for="active">Hidden</label>
+        <div>
+            <p-inputSwitch onLabel="Yes" offLabel="No" formControlName="hidden"></p-inputSwitch>
+        </div>           
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary" [disabled]="!form.valid" *ngIf="!inFlow"><i class="fa fa-plus"></i> Save</button>
+    </div>
+</form>

@@ -1,16 +1,16 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-integration-list',
   templateUrl: './integration-list.component.html',
-  styleUrls: ['./integration-list.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  styleUrls: ['./integration-list.component.scss']
 })
-export class IntegrationListComponent implements OnInit {
+export class IntegrationListComponent {
+    @Input() data: any[];
+    @Input() canSelect: boolean;
+    @Output() selectedItem = new EventEmitter();
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+    onRowSelect(event) {
+        this.selectedItem.emit(event.data);
+    }
 }

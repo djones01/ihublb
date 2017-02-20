@@ -9,7 +9,6 @@ export class ProjectListComponent {
     @Input() data: any[];
     @Input() canSelect: boolean;
     @Output() selectedItem = new EventEmitter();
-    @Output() menuAction = new EventEmitter();
 
     private types = [
       { label: 'All Types', value: null },

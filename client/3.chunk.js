@@ -1,18 +1,18 @@
 webpackJsonp([3,8],{
 
-/***/ 1106:
+/***/ 1177:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conversion_routing_module__ = __webpack_require__(1113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_conversion_edit_component__ = __webpack_require__(1116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list_conversion_list_component__ = __webpack_require__(1117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_conversion_card_component__ = __webpack_require__(1112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__detail_conversion_detail_component__ = __webpack_require__(1115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__conversion_component__ = __webpack_require__(1114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conversion_routing_module__ = __webpack_require__(1202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_conversion_edit_component__ = __webpack_require__(1205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list_conversion_list_component__ = __webpack_require__(1206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_conversion_card_component__ = __webpack_require__(1201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__detail_conversion_detail_component__ = __webpack_require__(1204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__conversion_component__ = __webpack_require__(1203);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ConversionModule", function() { return ConversionModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -52,11 +52,11 @@ var ConversionModule = (function () {
     ], ConversionModule);
     return ConversionModule;
 }());
-//# sourceMappingURL=D:/Users/us52031/Desktop/ihublb/src/conversion.module.js.map
+//# sourceMappingURL=C:/Users/DJ/Desktop/ihublb/src/conversion.module.js.map
 
 /***/ }),
 
-/***/ 1112:
+/***/ 1201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -80,19 +80,19 @@ var ConversionCardComponent = (function () {
     ConversionCardComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-conversion-card',
-            template: __webpack_require__(1164),
-            styles: [__webpack_require__(1139)],
+            template: __webpack_require__(1242),
+            styles: [__webpack_require__(1222)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
     ], ConversionCardComponent);
     return ConversionCardComponent;
 }());
-//# sourceMappingURL=D:/Users/us52031/Desktop/ihublb/src/conversion-card.component.js.map
+//# sourceMappingURL=C:/Users/DJ/Desktop/ihublb/src/conversion-card.component.js.map
 
 /***/ }),
 
-/***/ 1113:
+/***/ 1202:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -124,11 +124,11 @@ var ConversionRoutingModule = (function () {
     ], ConversionRoutingModule);
     return ConversionRoutingModule;
 }());
-//# sourceMappingURL=D:/Users/us52031/Desktop/ihublb/src/conversion-routing.module.js.map
+//# sourceMappingURL=C:/Users/DJ/Desktop/ihublb/src/conversion-routing.module.js.map
 
 /***/ }),
 
-/***/ 1114:
+/***/ 1203:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -152,19 +152,19 @@ var ConversionComponent = (function () {
     ConversionComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-conversion',
-            template: __webpack_require__(1165),
-            styles: [__webpack_require__(1140)],
+            template: __webpack_require__(1243),
+            styles: [__webpack_require__(1223)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
     ], ConversionComponent);
     return ConversionComponent;
 }());
-//# sourceMappingURL=D:/Users/us52031/Desktop/ihublb/src/conversion.component.js.map
+//# sourceMappingURL=C:/Users/DJ/Desktop/ihublb/src/conversion.component.js.map
 
 /***/ }),
 
-/***/ 1115:
+/***/ 1204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -188,19 +188,19 @@ var ConversionDetailComponent = (function () {
     ConversionDetailComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-conversion-detail',
-            template: __webpack_require__(1166),
-            styles: [__webpack_require__(1141)],
+            template: __webpack_require__(1244),
+            styles: [__webpack_require__(1224)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
     ], ConversionDetailComponent);
     return ConversionDetailComponent;
 }());
-//# sourceMappingURL=D:/Users/us52031/Desktop/ihublb/src/conversion-detail.component.js.map
+//# sourceMappingURL=C:/Users/DJ/Desktop/ihublb/src/conversion-detail.component.js.map
 
 /***/ }),
 
-/***/ 1116:
+/***/ 1205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -224,19 +224,19 @@ var ConversionEditComponent = (function () {
     ConversionEditComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-conversion-edit',
-            template: __webpack_require__(1167),
-            styles: [__webpack_require__(1142)],
+            template: __webpack_require__(1245),
+            styles: [__webpack_require__(1225)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
     ], ConversionEditComponent);
     return ConversionEditComponent;
 }());
-//# sourceMappingURL=D:/Users/us52031/Desktop/ihublb/src/conversion-edit.component.js.map
+//# sourceMappingURL=C:/Users/DJ/Desktop/ihublb/src/conversion-edit.component.js.map
 
 /***/ }),
 
-/***/ 1117:
+/***/ 1206:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -260,82 +260,82 @@ var ConversionListComponent = (function () {
     ConversionListComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-conversion-list',
-            template: __webpack_require__(1168),
-            styles: [__webpack_require__(1143)],
+            template: __webpack_require__(1246),
+            styles: [__webpack_require__(1226)],
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         }), 
         __metadata('design:paramtypes', [])
     ], ConversionListComponent);
     return ConversionListComponent;
 }());
-//# sourceMappingURL=D:/Users/us52031/Desktop/ihublb/src/conversion-list.component.js.map
+//# sourceMappingURL=C:/Users/DJ/Desktop/ihublb/src/conversion-list.component.js.map
 
 /***/ }),
 
-/***/ 1139:
+/***/ 1222:
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ 1140:
+/***/ 1223:
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ 1141:
+/***/ 1224:
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ 1142:
+/***/ 1225:
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ 1143:
+/***/ 1226:
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ 1164:
+/***/ 1242:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  conversion-card works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1165:
+/***/ 1243:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  conversion works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1166:
+/***/ 1244:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  conversion-detail works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1167:
+/***/ 1245:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  conversion-edit works!\r\n</p>\r\n"
 
 /***/ }),
 
-/***/ 1168:
+/***/ 1246:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\r\n  conversion-list works!\r\n</p>\r\n"

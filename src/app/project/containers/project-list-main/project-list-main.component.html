@@ -1,5 +1,21 @@
 <h4>Existing Projects</h4>
 <hr>
-<p-tieredMenu #menu [model]="items" [popup]="true" [style]="{'position':'absolute !important'}"></p-tieredMenu>
-<button #btn type="button" class="btn btn-secondary add-margin-bottom" icon="fa fa-list" (click)="menu.toggle($event)"><i class="fa fa-list"></i> Actions</button>
-<app-project-list [data]="projects$ | async" [canSelect]="true" (selectedItem)="onSelectedItem($event)"></app-project-list>
+<button class="btn btn-secondary" (click)="editProject()" [disabled]="!selectedItem"><i class="fa fa-edit"></i> Edit Project</button>
+<div ngbDropdown class="d-inline-block">
+    <button class="btn btn-secondary" id="dropdownMenu1" [disabled]="!selectedItem" ngbDropdownToggle>Add To Project</button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <button class="dropdown-item" (click)="addUsers()"><i class="fa fa-user"></i>Users</button>
+    <button class="dropdown-item" (click)="addIntegrations()"><i class="fa fa-plug"></i>Integrations</button>
+    </div>
+</div>
+<div ngbDropdown class="d-inline-block">
+    <button class="btn btn-secondary" id="dropdownMenu2" [disabled]="!selectedItem" ngbDropdownToggle>Delete</button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" (click)="addUsers()"><i class="fa fa-user"></i>Users</button>
+    <button class="dropdown-item" (click)="addIntegrations()"><i class="fa fa-plug"></i>Integrations</button>
+    </div>
+</div>
+<div class="add-margin-top">
+    <app-project-list [data]="projects$ | async" [canSelect]="true" (selectedItem)="onSelectedItem($event)"></app-project-list>
+</div>
+
