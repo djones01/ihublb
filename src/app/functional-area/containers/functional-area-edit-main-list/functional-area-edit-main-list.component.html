@@ -1,0 +1,14 @@
+  <button class="btn btn-secondary" (click)="addFunctionalArea()"><i class="fa fa-plus"></i> Add Functional Area</button>
+  <form [formGroup]="form" novalidate (ngSubmit)="onSubmit(form.value)" class="add-margin-top">
+    <div formArrayName="functionalAreas">
+      <div *ngFor="let functionalAreaForm of form.get('functionalAreas').controls; let i=index" class="card">
+        <div class="card-header">
+          <button class="btn btn-secondary" (click)="removeFunctionalArea(i)"><i class="fa fa-trash"></i> Delete</button>
+        </div>
+        <div class="card-block">
+          <h3 class="card-title">{{functionalAreaForm.get('name').value}}</h3>
+          <app-functional-area-edit [inFlow]="true" [form]="integrationForm"></app-functional-area-edit>
+        </div>
+      </div>
+    </div>
+  </form>

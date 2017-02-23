@@ -1,5 +1,4 @@
-import { Integration } from './integration';
-import { ProjectUser } from './project-user';
+import { Integration, ProjectUser } from './index';
 
 export interface Project {
     id?: number;

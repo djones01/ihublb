@@ -1,0 +1,30 @@
+<form [formGroup]="form" novalidate (ngSubmit)="onSubmit(form.value)">
+    <div class="form-group" [class.has-danger]="form.controls.name.invalid">
+        <label class="form-control-label" for="name">Name</label>
+        <input type="text" name="name" class="form-control" placeholder="Name" formControlName="name">
+        <div class="form-control-feedback" *ngIf="form.controls.name.invalid">Name is Required</div>
+    </div>
+    <div class="form-group">
+        <label class="form-control-label" for="description">Description</label>
+        <textarea type="text" name="description" class="form-control" placeholder="Description" formControlName="description"></textarea>
+    </div>
+    <div class="form-group">
+      <label>Effective Date</label>
+      <p-calendar formControlName="effective_date"></p-calendar>
+    </div>
+    <div class="form-group">
+        <label for="active">Active</label>
+        <div>
+            <p-inputSwitch onLabel="Yes" offLabel="No" formControlName="active"></p-inputSwitch>
+        </div>           
+    </div>
+    <div class="form-group">
+        <label for="active">Hidden</label>
+        <div>
+            <p-inputSwitch onLabel="Yes" offLabel="No" formControlName="hidden"></p-inputSwitch>
+        </div>           
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary" [disabled]="!form.valid" *ngIf="!inFlow"><i class="fa fa-plus"></i> Save</button>
+    </div>
+</form>

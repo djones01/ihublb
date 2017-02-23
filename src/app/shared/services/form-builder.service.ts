@@ -1,3 +1,4 @@
+import { FunctionalArea } from '../models/functional-area';
 import { Injectable } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
 
@@ -33,9 +34,19 @@ export class FormBuilderService {
     }
   }
 
+  initFunctionalAreaForm(functionalArea?: FunctionalArea){
+    return this.fb.group({
+      name: ['', Validators.required],
+      description: '',
+      effective_date: new Date(),
+      active: true,
+      hidden: false
+    });
+  }
+
   initIntegrationForm(integration?: Integration){
     return this.fb.group({
-      name: ['New Integration', Validators.required],
+      name: ['', Validators.required],
       description: '',
       source_system: ['', Validators.required],
       target_system: ['', Validators.required],

@@ -1,5 +1,4 @@
-import { IntegrationSchedule } from './integration-schedule';
-import { Conversion } from './conversion';
+import { IntegrationSchedule, Conversion } from './index';
 
 export interface Integration {
     name: string;
